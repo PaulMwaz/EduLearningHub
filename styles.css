@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Tahoma, sans-serif;
+}
+
+section {
+    padding: 2rem;
+}
+
+#home {
+    background-color: #f9f9f9;
+    font-family: Calibri, sans-serif;
+}
+
+#resources {
+    background-color: #e0f7fa;
+    font-family: Verdana, sans-serif;
+}
+
+#ebooks {
+    background-color: #e8f5e9;
+    font-family: Helvetica, sans-serif;
+}
+
+#events {
+    background-color: #fce4ec;
+    font-family: Arial, sans-serif;
+}
+
+#contact {
+    background-color: #f3e5f5;
+    font-family: Calibri, sans-serif;
+}
+
+.download-button, .download-ebook {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.download-button:hover, .download-ebook:hover {
+    background-color: #0056b3;
+}
